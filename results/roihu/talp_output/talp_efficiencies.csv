@@ -1,0 +1,9 @@
+Configuration,Execution mode,MPI ranks,Parallel efficiency,MPI parallel efficiency,MPI communication efficiency,MPI load balance,Device offload efficiency,GPU parallel efficiency,GPU load balance,GPU communication efficiency,GPU orchestration efficiency
+4,Standard,4,0.93,0.97,0.98,0.98,0.96,0.02,0.99,0.95,0.02
+4 MPS,MPS,4,0.94,0.98,0.98,1.0,0.96,0.02,0.99,0.95,0.02
+8,Standard,8,0.64,0.91,0.97,0.95,0.7,0.02,1.0,0.89,0.02
+8 MPS,MPS,8,0.88,0.95,0.96,0.98,0.93,0.02,0.99,0.92,0.03
+16,Standard,16,0.34,0.81,0.88,0.91,0.42,0.01,1.0,0.85,0.01
+16 MPS,MPS,16,0.79,0.92,0.94,0.98,0.86,0.03,0.99,0.89,0.04
+32,Standard,32,0.13,0.74,0.81,0.91,0.17,0.01,0.99,0.77,0.01
+32 MPS,MPS,32,0.62,0.85,0.88,0.97,0.73,0.04,0.99,0.84,0.05
